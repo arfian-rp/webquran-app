@@ -27,6 +27,7 @@
   font-size: 2.5rem;
   padding: 1rem;
   font-family: "Scheherazade New", serif;
+  margin-right: 2rem;
 }
 .latin {
   font-size: 20px;
@@ -37,7 +38,7 @@
   display: flex;
   justify-content: space-between;
   .no {
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-right: 1rem;
     font-size: 1.5rem;
     align-self: center;
