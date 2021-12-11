@@ -44,7 +44,7 @@ await getData();
         </div>
       </li>
       <router-link v-for="(e, i) in surat.ayat" :key="i" :to="{ name: 'Ayat', params: { noSurat, noAyat: e.number.inSurah } }" class="list-group-item cell">
-        <div class="no">{{ ++i }}</div>
+        <div class="no">{{ ++i }}.</div>
         <div class="content">
           <div class="arab">
             {{ e?.text?.arab }}

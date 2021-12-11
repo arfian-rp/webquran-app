@@ -28,9 +28,7 @@ await getData();
     <Navbar :addBack="false" />
     <ul class="list-group mt-5">
       <router-link v-for="(e, i) in quran.surat" :key="i" :to="{ name: 'Surat', params: { noSurat: e.number } }" class="list-group-item cell">
-        <div class="no">
-          {{ ++i }}
-        </div>
+        <div class="no">{{ ++i }}.</div>
         <div class="content">
           <div class="arab">
             {{ e.name?.short }}
