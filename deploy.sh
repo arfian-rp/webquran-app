@@ -1,3 +1,4 @@
+yarn build
 git add .
 git commit -m "ok"
 git remote add origin git@github.com:arfian-rp/webquran.git
