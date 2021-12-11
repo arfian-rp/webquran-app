@@ -1,7 +1,7 @@
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("static").then((c) => {
-      return c.addAll(["./", "./favicon.ico", "./manifest.json", "./img/icon-192.png", "./src/main.js"]);
+      return c.addAll(["./", "./img/icon-192.png"]);
     })
   );
 });
