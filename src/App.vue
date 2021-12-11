@@ -39,7 +39,7 @@
   .no {
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-self: center;
   }
 }
