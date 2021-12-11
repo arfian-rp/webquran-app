@@ -33,4 +33,14 @@
   padding: 1rem;
   font-family: serif;
 }
+.cell {
+  display: flex;
+  justify-content: space-between;
+  .no {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    align-self: center;
+  }
+}
 </style>

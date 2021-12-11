@@ -43,12 +43,15 @@ await getData();
           {{ surat.preBismillah?.translation?.id }}
         </div>
       </li>
-      <router-link v-for="(e, i) in surat.ayat" :key="i" :to="{ name: 'Ayat', params: { noSurat, noAyat: e.number.inSurah } }" class="list-group-item">
-        <div class="arab">
-          {{ e?.text?.arab }}
-        </div>
-        <div class="latin">
-          {{ e?.translation?.id }}
+      <router-link v-for="(e, i) in surat.ayat" :key="i" :to="{ name: 'Ayat', params: { noSurat, noAyat: e.number.inSurah } }" class="list-group-item cell">
+        <div class="no">{{ ++i }}</div>
+        <div class="content">
+          <div class="arab">
+            {{ e?.text?.arab }}
+          </div>
+          <div class="latin">
+            {{ e?.translation?.id }}
+          </div>
         </div>
       </router-link>
     </ul>
