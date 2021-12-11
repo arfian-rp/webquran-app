@@ -1,6 +1,6 @@
 node_modules
+deploy.sh
 .DS_Store
 dist
 dist-ssr
 *.local
-deploy.sh
